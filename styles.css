@@ -1,1 +1,150 @@
-/* Write your CSS here! */
+body {
+  margin: 8px;
+  padding-top: 4rem;
+  background-image: url("images/swirl_pattern.webp");
+  display: block;
+  position: relative;
+}
+
+header h1 {
+  font-family: "Courgette", cursive;
+  text-align: center;
+  font-size: 2.4rem;
+  color: #f03a47;
+}
+
+#intro {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 1rem;
+}
+
+#intro p {
+  font-family: "Yantramanav", sans-serif;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav ul li {
+  font-family: "Gentium Plus", serif;
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+  margin: 4px;
+  flex: 0 0 auto;
+}
+
+#mainHeading {
+  color: red;
+}
+
+.funParagraph {
+  color: green;
+}
+
+.place {
+  font-family: "Yantramanav", sans-serif;
+  padding: 30px;
+  border-bottom: 0.5px solid #eaeaea;
+}
+
+.place header {
+  text-align: center;
+  font-family: "Gentium Plus", serif;
+  font-weight: 400;
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+}
+
+.date {
+  font-weight: 100;
+  font-family: "Cutive Mono", monospace;
+  margin-left: 50px;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+.place:nth-child(odd) {
+  background-color: #183059;
+  color: #f6f4f3;
+}
+
+.place:nth-child(even) {
+  background-color: #f6f4f3;
+}
+
+.place:nth-child(even) .date {
+  color: #f03a47;
+}
+
+.content {
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  display: flex;
+  padding: 10px;
+}
+
+.content .image {
+  margin: 0px 30px;
+  flex: 0 1 530px;
+  border-radius: 1%;
+  height: auto;
+  transition: 0.5s ease all;
+  overflow: hidden;
+}
+
+.image img {
+  display: block;
+  margin: auto;
+  width: 100%;
+  height: auto;
+  transition: 0.5s ease all;
+}
+
+.image img:hover {
+  transform: scale(1.02);
+}
+
+.caption {
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.content .text {
+  height: 100%;
+  flex: 1 0 500px;
+  display: flex;
+  max-width: 80%;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.song {
+  margin-top: 15px;
+}
+
+.switched {
+  flex-direction: row-reverse;
+}
+
+footer {
+  padding: 10px;
+  font-family: "Cutive Mono", monospace;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  background-color: rgba(213, 39, 39, 0.9);
+  text-align: center;
+  color: white;
+}
