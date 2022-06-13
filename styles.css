@@ -28,8 +28,16 @@ header h1 {
   margin-bottom: 1rem;
 }
 
+#mainHeading { 
+    color:red; 
+}
+
 #intro p {
   font-family: "Yantramanav", sans-serif;
+}
+
+.funParagraph {
+    color:green; 
 }
 
 .place {
